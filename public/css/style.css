@@ -195,6 +195,25 @@ h1{
   margin: auto;
 }
 
+#job-view-container {
+  margin-top: 100px;
+}
+#job-view-container a{
+  color: #dc3545;
+  display: block;
+  margin-bottom: 30px;
+}
+#job-view-container a:hover{
+  text-decoration: underline;
+}
+
+#job-view-container p{
+  margin-bottom: 30px;
+  line-height: 2;
+}
+#job-view-container span{
+  font-weight: bold;
+}
 @media (max-width: 600px) {
   .container{
     width: 95%;
