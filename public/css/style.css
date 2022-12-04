@@ -142,6 +142,10 @@ h1{
   gap: 20px;
   margin-bottom: 10px;
 }
+
+#jobs-container h2{
+  margin: 0px;
+}
 #jobs-container .info{
   padding: 10px;
   display: flex;
