@@ -3,6 +3,32 @@
   margin: auto;
 }
 
+h3{
+  font-size: 18px;
+}
+h2{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+h1{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.btn-primary{
+  padding: 12px 24px;
+  border: 2px solid #dc3545;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #dc3545;
+  cursor: pointer;
+  transition: .3s;
+}
+.btn-primary:hover{
+  color: #dc3545;
+  background-color: #ffffff;
+}
 /* MENU */
 /* MENU */
 /* MENU */
@@ -64,7 +90,6 @@
 }
 
 #top-container h1{
-  font-size: 40px;
   margin-bottom: 40px;
 }
 #top-container p{
@@ -85,22 +110,7 @@
 #top-container input:focus{
   outline: none;
 }
-#top-container button{
-  border-bottom: none;
-  background-color: #dc3545;
-  border: 2px solid #dc3545;
-  color: white;
-  padding: 15px 20px;
-  cursor: pointer;
-  font-size: 24px;
-  transition: .4s;
-}
-#top-container button:hover{
-  border-bottom: none;
-  background-color: white;
-  border: 2px solid #dc3545;
-  color: #dc3545;
-}
+
 
 /* JOB CONTAINER */
 /* JOB CONTAINER */
@@ -139,34 +149,48 @@
   row-gap: 10px;
   position: relative;
 }
-#jobs-container h3{
-  font-size: 18px;
-}
-#jobs-container h2{
-  font-size: 24px;
-}
+
 #jobs-container .new-job-label{
   background-color: #ffc107;
   padding: 5px;
   text-align: center;
 }
 
-#jobs-container a{
-  border-bottom: none;
-  background-color: #dc3545;
-  border: 2px solid #dc3545;
-  color: white;
-  padding: 15px 20px;
-  cursor: pointer;
-  font-size: 18px;
-  transition: .4s;
+/* NOVAS VAGAS ADD */
+/* NOVAS VAGAS ADD */
+/* NOVAS VAGAS ADD */
+/* NOVAS VAGAS ADD */
+/* NOVAS VAGAS ADD */
+
+#add-form-container{
+  margin-top: 100px;
 }
-#jobs-container a:hover{
-  border-bottom: none;
-  background-color: white;
-  border: 2px solid #dc3545;
-  color: #dc3545;
+#add-form-container .form-item{
+  margin-bottom: 20px;
 }
+#add-form-container label{
+  display: block;
+  margin-bottom: 5px;
+}
+#add-form-container small{
+  display: block;
+  font: 10px;
+  color: #8b8b8b;
+  margin-top: 8px;
+}
+#add-form-container input,
+#add-form-container textarea{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px;
+}
+
+#add-form-container button{
+  display: block;
+  margin: auto;
+}
+
 @media (max-width: 600px) {
   .container{
     width: 95%;
