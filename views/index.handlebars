@@ -22,17 +22,16 @@
         {{else}}
           <h2 id="job-list-title">Veja as nossas vagas em destaque</h2>
         {{/if}}
-        {{#each jobs}}
-          <ul id="job-list">
-            <li class="job-list-item new-job">
-              <h3>{{dataValues.company}}</h3>
-              <h2>{{dataValues.title}}</h2>
-              <p>Salário: R$ {{dataValues.salary}}</p>
-              <span class="new-job-label">Nova</span>
-              <a href="/jobs/view/{{dataValues.id}}" class="btn-primary">Ver vaga</a>
-            </li>
-          </ul>
-        {{/each}}
+        <ul id="job-list">
+          {{#each jobs}}
+              <li class="job-list-item">
+                <h2>{{dataValues.title}}</h2>
+                <h3>{{dataValues.company}}</h3>
+                <p>Salário: R$ {{dataValues.salary}}</p>
+                <a href="/jobs/view/{{dataValues.id}}" class="btn-primary">Ver vaga</a>
+              </li>
+          {{/each}}
+        </ul>
 
     </div>
   </section>
